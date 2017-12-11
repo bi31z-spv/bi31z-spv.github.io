@@ -42,11 +42,23 @@ body {
     100% { background-color: var(--color25p) }
 }
 
+#info {
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+#info span {
+    color: #f1f1f1;
+    font-size: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+
 #photo {
-    padding: 4px;
+    margin-top: 10%;
     top: 0;
     left: 0;
-    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100px;
@@ -56,7 +68,6 @@ body {
     border-radius: 100px;
     border: 4px double rgba(255, 255, 255, 0);
 }
-
 #img:hover {
     border: 4px double #f1f1f1;
     -webkit-transition: all .5s ease-in .5ms;
@@ -64,52 +75,36 @@ body {
     transition: all .5s ease-in .5ms;
 }
 
-#info {
-    margin-top: 35px;
+#author {
+    margin-top: 2%;
 }
-
-#title {
-    width: 30%;
-    margin: 0 auto; 
-    background: rgba(255, 255, 255, 0);
-    padding: 35px; 
-    border: 2px solid #f1f1f1;
-    border-radius: 20px/50px;
-    background-clip: padding-box;
-    text-align: center;
-    transition: all 0.3s ease-out;
-}
-
-#title:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.p1 {
+#author span {
+    font-size: 35px;
     color: #f1f1f1;
     letter-spacing: 1px;
-    word-spacing: 4px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 72px;
+    line-height: 1em;
+    letter-spacing: -2px;
 }
 
 #list {
     font-size: 15px;
 }
-
 li {
     color: #514A9D;
     padding: 3px;
     text-align: left;
 }
-
 li span {
     color: #2d2d2d;
 }
 
-.box {
-    padding: 35px;
+#button-container {
+    margin-top: 10%;
 }
 
-.button {
+#show {
     font-size: 1em;
     padding: 10px;
     color: #f1f1f1;
@@ -120,7 +115,7 @@ li span {
     transition: all 0.3s ease-out;
 }
 
-.button:hover {
+#button:hover {
     background: #06D85F;
 }
 
@@ -141,7 +136,7 @@ li span {
     opacity: 1;
 }
 
-.popup {
+#popup {
     margin: 70px auto;
     padding: 20px;
     background: #f1f1f1;
@@ -151,13 +146,11 @@ li span {
     transition: all 5s ease-in-out;
 }
 
-.popup h2 {
-    margin-top: 0;
+#popup h2 {
     color: #333;
-    font-family: Tahoma, Arial, sans-serif;
 }
 
-.popup .close {
+#popup #close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -168,16 +161,16 @@ li span {
     color: #333;
 }
 
-.popup .close:hover {
+#popup #close:hover {
     color: #06D85F;
 }
 
-.popup .content {
+#popup #content {
     max-height: 30%;
     overflow: auto;
 }
 
 @media screen and (max-width: 700px) {
-    .box { width: 70%; }
-    .popup { width: 70%; }
+    #button-container { width: 70%; }
+    #popup { width: 70%; }
 }
