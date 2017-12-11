@@ -115,7 +115,7 @@ li span {
     transition: all 0.3s ease-out;
 }
 
-#button:hover {
+#show:hover {
     background: #06D85F;
 }
 
