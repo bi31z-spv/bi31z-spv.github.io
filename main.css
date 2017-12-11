@@ -3,9 +3,9 @@
 }
 
 :root {
-    --color25p: #24C6DC; /* 1797d2 */
-    --color50p: #514A9D; /* 0cc898 */
-    --color100p: #24C6DC; /* 1797d2 */
+    --color25p: #514A9D; /* 1797d2 */
+    --color50p: #24C6DC; /* 0cc898 */
+    --color100p: #514A9D; /* 1797d2 */
 }
 
 html {
